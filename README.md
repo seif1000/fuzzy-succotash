@@ -1,14 +1,15 @@
-# nodejs-sequelize-app
-express app with signup and login. create, update post .upload image ,using express and sequelize
+# Aventique
 
 ## Index
 + [Demo](#demo)
-
++ [Get All users end points](#features)
 + [Installation](#installation)
 
 ## Demo<a name="demo"></a>
-Check [Demo](https://murmuring-atoll-22449.herokuapp.com/)
+Check [Demo](https://aventique.onrender.com/)
 
+## Endpoints<a name="features"></a>
++ Get all users (https://aventique.onrender.com/api/v1/users)
 
 
 ## Installation<a name="installation"></a>
@@ -18,8 +19,8 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 1. Clone or Download the repository
 
 	```
-	$ git clone https://github.com/seif1000/nodejs-sequelize-app.git
-	$ cd nodejs-sequelize-app
+	$ git clone https://github.com/seif1000/fuzzy-succotash.git
+	
 	```
 2. Install Dependencies
 
@@ -29,9 +30,20 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 
 4. Start the application
 
+	
 	```
-	$ npm start
+	$ npm run dev
 	```
-Your app should now be running on [localhost:8080](http://localhost:8080/).
-
+5. Build the app
+       
+	```
+	$ npm run build
+	```
+	
+6. Unit test using jest
+       
+	```
+	$ npm test
+	```
+Your app should now be running on [localhost:3000](http://localhost:3000/).
 
