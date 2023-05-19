@@ -41,7 +41,9 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 	```
 	
 6. Unit test using jest
-       
+       ```
+	$ npx ts-jest config:init
+	```
 	```
 	$ npm test
 	```
