@@ -40,10 +40,13 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 	$ npm run build
 	```
 	
-6. Unit test using jest
+	
+6.Set up jest
        ```
 	$ npx ts-jest config:init
 	```
+	
+7.Start the  test
 	```
 	$ npm test
 	```
